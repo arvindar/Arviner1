@@ -29,6 +29,7 @@
         <asp:Label ID="Label2" runat="server" Text="Last Name"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="margin-left: 33px" Text="Remember Me" />
         <br />
         <br />
         <asp:Label ID="Label3" runat="server" Text="City"></asp:Label>
@@ -83,6 +84,7 @@
         <br />
         <asp:Label ID="Label9" runat="server" Text="Comment:"></asp:Label>
         <textarea id="TextArea1" cols="20" name="S1" rows="2"></textarea><br />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Order" />
         <br />
     </form>
 </body>
